@@ -31,7 +31,7 @@ let package = Package(
         .plugin(name: "SwiftFormatPlugin", targets: ["SwiftFormatPlugin"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/stos07/InputBarAccessoryView", .branch("main")),
+        .package(url: "https://github.com/stos07/InputBarAccessoryView", .branch("master")),
     ],
     targets: [
         // MARK: - MessageKit
