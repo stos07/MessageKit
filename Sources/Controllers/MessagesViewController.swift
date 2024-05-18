@@ -87,7 +87,7 @@ open class MessagesViewController: UIViewController, UICollectionViewDelegateFlo
 
   open override func viewSafeAreaInsetsDidChange() {
     super.viewSafeAreaInsetsDidChange()
-    updateMessageCollectionViewBottomInset()
+    // updateMessageCollectionViewBottomInset()
   }
 
   // MARK: - UICollectionViewDataSource
